@@ -26,12 +26,9 @@ driver = webdriver.Chrome(service=s, options=chromeOptions)
 
 # This you have to run the driver here. Your execution will depend.
 def starting_driver():
-    driver.get("https://money.rediff.com/gainers")
+    driver.get("https://demo.nopcommerce.com")
     print("starting_Driver")
     driver.maximize_window() #maximize window
     time.sleep(1)
- 
-    
-
     
 
