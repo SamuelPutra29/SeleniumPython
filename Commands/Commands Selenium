@@ -1,0 +1,27 @@
+"""
+# This page is about Selenium commands 
+1. Application Commands
+2. Conditional Commands
+3. Browser Commands 
+4. Navigational Commands
+5. Wait Commands
+"""
+"""
+1. Application Commands
+    ? get() : opening the current url
+    ? title : To get title of the page 
+    ? current_url : to get current url page
+    ? page_source : to get source code of the current page
+
+2. Conditional Commands
+    ? is_displayed()
+    ? is_enabled()
+    ? is_selected()
+
+
+"""
+
+
+
+
+

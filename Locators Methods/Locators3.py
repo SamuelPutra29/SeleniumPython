@@ -22,7 +22,7 @@ text()
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from StartDriver import *
+from Commands.StartDriver import *
 # Calling the function to start chrome driver 
 #starting_driver()
 
