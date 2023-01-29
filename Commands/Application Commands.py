@@ -1,4 +1,3 @@
-# Conditional commands
 from selenium import webdriver
 #required for controlling browser By and Keys
 from selenium.webdriver.common.by import By
@@ -34,30 +33,15 @@ def starting_driver():
     
 starting_driver()
 
-# is_displayed & is_enabled
-searchbox = driver.find_element(By.ID, 'small-searchterms')
-print('Display status: ', searchbox.is_displayed())
-print('Display status: ', searchbox.is_enabled())
 
-# is_selected : To check the element already selected or not 
-
-register = driver.find_element(By.LINK_TEXT,'Register').click()
-male = driver.find_element(By.XPATH, "//input[@id='gender-male']")
-female = driver.find_element(By.XPATH, "//input[@id='gender-female']")
-
-print('Default radio buttons status....')
-print('male button: ', male.is_selected())
-print('female button: ', female.is_selected())
-
-male.click()
-print('After selecting male radio button...')
-print('male button: ', male.is_selected())
-print('female button: ', female.is_selected())
+title= driver.title
+currenturl= driver.current_url
+pagesource= driver.page_source
 
 
-
-
-
+print(title)
+print(currenturl)
+print(pagesource)
 
 
 
